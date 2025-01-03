@@ -15,8 +15,7 @@ body {
     margin: 0;
 }
 
-header,
-footer {
+header {
     background-color: transparent;
     text-align: center;
     padding: 1em;
@@ -25,6 +24,18 @@ footer {
     justify-content: center;
     gap: 3rem;
 }
+
+footer {
+    background-color: transparent;
+    text-align: center;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+}
+
+
 
 nav>ul {
     display: flex;
@@ -55,6 +66,16 @@ main {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin: 0;
+}
+
+.email {
+    font-size: 1.5rem;
+    margin: 0;
+    color: rgb(83, 69, 133);
+}
+
+.email:hover {
+    color: rgb(46, 18, 148);
 }
