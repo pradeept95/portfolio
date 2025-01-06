@@ -1,7 +1,7 @@
 html {
     background: linear-gradient(103deg, rgba(255, 255, 255, 0.2) 10.04%, rgba(241, 153, 207, 0.2) 52.74%, rgba(159, 194, 238, 0.2) 60.55%);
     opacity: 0.8; 
-    background-size: 10px 10px;
+    //background-size: 10px 10px;
 }
 
 body {
